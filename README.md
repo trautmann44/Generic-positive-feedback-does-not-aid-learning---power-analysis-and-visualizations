@@ -1,16 +1,16 @@
-# Choosing-order-boosts-motor-performance---power-analysis-and-visualizations
+# Generic positive feedback does not aid leanring---power-analysis-and-visualizations
 
 📌 Project Overview
 
-This project investigates the effect of **enhanced expectancies (positive feedback)** on motor performance and learning in aerobic gymnastics.
+This project investigates the effect of **enhanced expectancies (generic positive feedback)** on motor performance and learning in aerobic gymnastics.
 
-Using a controlled experimental design, the analysis evaluates whether generic positive feedback can influence execution quality, perceived exertion, and intrinsic motivation.
+Using a controlled experimental design, the analysis evaluates whether generic positive feedback can influence execution quality, perceived exertion, and intrinsic motivation dimensions.
 
 ---
 
 ❓ Research Question
 
-Does enhanced expectancies (via positive feedback) improve motor performance and learning outcomes compared to a control condition?
+Does enhanced expectancies (via generic positive feedback) improve motor performance and learning outcomes compared to a control condition?
 
 ---
 
@@ -40,7 +40,7 @@ Previous research suggests:
 Measured outcomes:
 - Execution quality (judged performance)
 - Perceived exertion (Borg scale)
-- Intrinsic motivation (IMI)
+- Intrinsic motivation dimensions (IMI)
 
 ---
 
@@ -65,7 +65,7 @@ Additional analysis:
 
 📈 Key Results
 
-- No statistically discrenible differences between groups
+- No statistically discernible differences between groups
 - Both groups improved over time
 - EE group showed a **steeper improvement trend**
 
@@ -110,4 +110,4 @@ Effect sizes (Cohen’s d):
 - Monte Carlo simulation
 - Data visualization (ggplot2)
 
-See the preregistration of the project: https://osf.io/preprints/psyarxiv/ufesa_v1
+See the preprint of the project: https://osf.io/preprints/psyarxiv/ufesa_v1
