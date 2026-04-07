@@ -1,41 +1,113 @@
 # Choosing-order-boosts-motor-performance---power-analysis-and-visualizations
 
-## Abstract
+📌 Project Overview
 
-This project investigates the effect of **enhanced expectancies** (induced via positive feedback) on motor performance and learning in aerobic gymnastics.
+This project investigates the effect of **enhanced expectancies (positive feedback)** on motor performance and learning in aerobic gymnastics.
 
-A total of 36 female gymnasts (mean age = 14.1 ± 3.48) were assigned to either an enhanced expectancies (EE) group or a control (Con) group. Participants performed a coordinative task across three phases: baseline (BT), practice (PT), and retention (RT). Performance was evaluated by certified judges, alongside perceived exertion (Borg scale) and intrinsic motivation (IMI).
-
-Linear mixed-effects models showed **no statistically significant differences between groups** in performance, perceived exertion, or intrinsic motivation. However, both groups improved over time, with the EE group showing a **steeper improvement trend**. Execution errors decreased by approximately **70% in the EE group vs. 34% in the control group**.
-
-Although between-group differences were not statistically significant, the results suggest a **potential practical effect** of enhanced expectancies and extend existing findings to aesthetic sports contexts.
-
+Using a controlled experimental design, the analysis evaluates whether generic positive feedback can influence execution quality, perceived exertion, and intrinsic motivation.
 
 ---
 
-## Sensitivity Analysis
+❓ Research Question
 
-To assess statistical sensitivity, a **simulation-based power analysis** was conducted following DeBruine & Barr (2021).
+Does enhanced expectancies (via positive feedback) improve motor performance and learning outcomes compared to a control condition?
 
-The analysis focused on detecting effects of:
-- Group (EE vs. Control)
-- Phase (BT, PT, RT)
-- Group × Phase interaction
+---
 
-A linear mixed-effects model with participant ID as a random intercept was used.
+📚 Background
 
-Power was estimated using **5,000 Monte Carlo simulations**, defined as the proportion of 95% confidence intervals excluding zero, across sample sizes ranging from N = 20 to N = 120.
+Enhanced expectancies are considered an important psychological factor influencing motor learning and performance.
 
-Results showed **extremely low statistical power** for detecting the Group × Phase interaction, ranging from:
-- 0.006 to 0.012 across all tested sample sizes
+Previous research suggests:
+- Positive feedback can improve performance outcomes
+- Effects are often small and context-dependent
+- Evidence in **aesthetic sports (e.g., gymnastics)** is limited
 
-For the observed sample (N = 36):
-- Effect sizes (Cohen’s d):
-  - BT: -0.10
-  - PT: -1.08
-  - RT: -0.95
-- Estimated power: ~0.007 [0.005–0.01]
+---
 
-These findings indicate that the study was **severely underpowered** to detect interaction effects, highlighting the importance of adequate sample size planning in similar experimental designs.
+🧪 Study Design
+
+- Sample size: N = 36 female gymnasts  
+- Between-group design:  
+  - Enhanced Expectancies (EE)  
+  - Control (Con)  
+- Task: Coordinative motor task  
+- Phases:
+  - Baseline (BT)
+  - Practice (PT)
+  - Retention (RT)
+
+Measured outcomes:
+- Execution quality (judged performance)
+- Perceived exertion (Borg scale)
+- Intrinsic motivation (IMI)
+
+---
+
+📊 Analysis Approach
+
+Statistical model:
+- Linear Mixed-Effects Models (LMM)
+
+Fixed effects:
+- group (EE vs Con)
+- phase (BT, PT, RT)
+- interaction (group × phase)
+
+Random effects:
+- participant ID
+
+Additional analysis:
+- Simulation-based power analysis (Monte Carlo approach)
+- Sensitivity analysis across sample sizes (N = 20–120)
+
+---
+
+📈 Key Results
+
+- No statistically discrenible differences between groups
+- Both groups improved over time
+- EE group showed a **steeper improvement trend**
+
+Performance change:
+- EE: ~70% reduction in execution errors  
+- Control: ~34% reduction  
+
+---
+
+🧠 Interpretation
+
+Although no statistically significant group differences were observed:
+
+- The EE group showed **practically meaningful improvement trends**
+- Results suggest a **potential effect not detectable with given sample size**
+- Findings highlight the importance of **statistical power in experimental designs**
+
+---
+
+⚠️ Sensitivity Analysis
+
+Monte Carlo simulation (5,000 iterations) revealed:
+
+- Extremely low power to detect interaction effects:
+  - Power ≈ 0.006–0.012 across N = 20–120
+- For N = 36:
+  - Power ≈ 0.007
+
+Effect sizes (Cohen’s d):
+- BT: -0.10  
+- PT: -1.08  
+- RT: -0.95  
+
+👉 Conclusion: The study was **severely underpowered**, limiting the ability to detect group differences.
+
+---
+
+🧰 Tools
+
+- jamovi, R
+- Linear Mixed-Effects Models (lme4)
+- Monte Carlo simulation
+- Data visualization (ggplot2)
 
 See the preregistration of the project: https://osf.io/preprints/psyarxiv/ufesa_v1
