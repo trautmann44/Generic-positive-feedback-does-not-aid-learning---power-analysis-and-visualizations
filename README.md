@@ -37,3 +37,5 @@ For the observed sample (N = 36):
 - Estimated power: ~0.007 [0.005–0.01]
 
 These findings indicate that the study was **severely underpowered** to detect interaction effects, highlighting the importance of adequate sample size planning in similar experimental designs.
+
+See the preregistration of the project: https://osf.io/preprints/psyarxiv/ufesa_v1
